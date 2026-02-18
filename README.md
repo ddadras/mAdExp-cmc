@@ -1,4 +1,4 @@
-\# Energy-Constrained Laminar Cortical Network Model
+# Energy-Constrained Laminar Cortical Network Model
 
 
 
@@ -10,21 +10,21 @@ This repository contains the code accompanying the manuscript:
 
 
 
-\## Overview
+## Overview
 
 
 
 We implement a laminar cortical column model with:
 
-\- Energy-dependent mAdExp neurons
+- Energy-dependent mAdExp neurons
 
-\- AMPA, NMDA, GABA synapses
+- AMPA, NMDA, GABA synapses
 
-\- Potjans \& Diesmann connectivity
+- Potjans \& Diesmann connectivity
 
-\- LFP approximation
+- LFP approximation
 
-\- Metabolic disruption experiments
+- Metabolic disruption experiments
 
 
 
@@ -36,13 +36,13 @@ The model is implemented in Brian2.
 
 
 
-\## Structure
+## Structure
 
 
 
-\- `network\_simulations/` — Network model and code used to create figures
+- `network\_simulations/` — Network model and code used to create figures
 
-\- `voltage\_fitting/` — Single cell model, Fitting procedure and code used to create figures
+- `voltage\_fitting/` — Single cell model, Fitting procedure and code used to create figures
 
 
 
@@ -50,7 +50,7 @@ The model is implemented in Brian2.
 
 
 
-\## Installation
+## Installation
 
 
 
@@ -59,6 +59,6 @@ The model is implemented in Brian2.
 pip install -r requirements.txt
 ```
 
-\## Citation
+## Citation
 
 If you use this code, please cite.
